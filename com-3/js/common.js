@@ -179,11 +179,15 @@ $(function() {
 	$('.advantages').hide();
 	$('.rent-type-2').hide();
 	$('.rent-type-3').hide();
+	$('.offer-type-3').hide();
+	$('.more-offer-type-3').hide();
 	$('.rent-type-1-btn').on('click', function(event) {
 		event.preventDefault();
 		$('.rent-type-1').show();
 		$('.rent-type-2').hide();
 		$('.rent-type-3').hide();
+		('.more-offer-type-3').hide();
+		$('.offer-type-3').hide();
 
 		$('section.soft').show();
 
@@ -195,6 +199,8 @@ $(function() {
 		$('.rent-type-1').hide();
 		$('.rent-type-2').show();
 		$('.rent-type-3').hide();
+		$('.more-offer-type-3').hide();
+		$('.offer-type-3').hide();
 
 		$('section.soft').hide();
 		$('.advantages').show();
@@ -207,6 +213,9 @@ $(function() {
 		$('.rent-type-1').hide();
 		$('.rent-type-2').hide();
 		$('.rent-type-3').show();
+		$('.offer-type-3').show();
+		$('.offer-type-1-2').hide();
+		$('.more-offer-type-3').show();
 
 		$('section.soft').hide();
 		$('.advantages').hide();
@@ -214,5 +223,24 @@ $(function() {
 		$('.rent-title').removeClass('rent-title-active');
 		$(this).addClass('rent-title-active');
 	});
+
+	$('section.support-informer ul').hide();
+	$('section.support-informer span').on('click', function(event) {
+		event.preventDefault();
+
+		if($(this).hasClass('support-active')) return 1;
+
+		$('section.support-informer span').removeClass('support-active');
+		$('section.support-informer ul').slideUp(300);
+		$(this).addClass('support-active');
+		$(this).parent().find('ul').slideDown(300);
+	});
+
+
+	if ($(window).width() >= '992') {
+		var getSupportHeight = $('section.support-informer .get-height').height();
+		$('section.support-informer .support-left').height(getSupportHeight);
+		return false;
+	}
 
 });
