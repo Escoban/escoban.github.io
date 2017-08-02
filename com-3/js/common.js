@@ -236,11 +236,40 @@ $(function() {
 		$(this).parent().find('ul').slideDown(300);
 	});
 
+	$('.hosting-full-settings').hide();
+
+	var hostringFullShowMoreSettings = false;
+	$('.hostring-full-show-more-settings').on('click', function(event) {
+		event.preventDefault();
+		if (hostringFullShowMoreSettings == false) {
+			hostringFullShowMoreSettings = true;
+			$('.hosting-full-settings').slideDown(300);
+		} else {
+			hostringFullShowMoreSettings = false;
+			$('.hosting-full-settings').slideUp(300);
+		}
+	});
+
+	$('.rate-full-mob').hide();
+	$('.hostring-show-more-settings').on('click', function(event) {
+		event.preventDefault();
+		$(this).hide();
+		$(this).parent().find('div.rate-full-mob').show();
+	});
+
+	$('.price-list-inner-item-content').hide();
+
+	$('.price-list-inner-item-nav').on('click', function(event) {
+		event.preventDefault();
+		$('.price-list-inner-item-content').hide();
+		$(this).find('div').show();
+	});
 
 	if ($(window).width() >= '992') {
 		var getSupportHeight = $('section.support-informer .get-height').height();
 		$('section.support-informer .support-left').height(getSupportHeight);
 		return false;
 	}
+
 
 });
