@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>NATALI - Интернет магазин цветов</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+</head>
+
+<body>
+
+   <header class="main-header">
+      <div class="main-header-top_row">
+         <div class="container">
+            <div class="row main-header_top">
+               <div class="col-xs-6 col-sm-3 col-lg-2">
+                  <ul class="location-switch">
+                     <li class="location-switch_item"><a href="/" class="location-switch_link">Москва <img src="img/location-switch.png" class="location-switch_img" alt="switch"></a></li>
+                     <li class="location-switch_item location-switch_item-child"><a href="/" class="location-switch_link">Санкт-Петербург</a></li>
+                     <li class="location-switch_item location-switch_item-child"><a href="/" class="location-switch_link">Владивосток</a></li>
+                  </ul>
+               </div>
+               <div class="col-lg-5 hidden-sm hidden-xs col-lg-offset-1">
+                  <nav class="header-menu">
+                     <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="/">Доставка и оплата</a></li>
+                        <li><a href="contact.html">Контакты</a></li>
+                        <li><a href="/">Фотогалерея</a></li>
+                        <li><a href="/">Акции</a></li>
+                     </ul>
+                  </nav>
+               </div>
+               <div class="col-xs-3 col-md-2 col-sm-7 col-lg-2 hidden-xs">
+                  <div class="header-social_wraper">
+                     <div class="header-social">
+                        <a href="/" class="header-social_item"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="/" class="header-social_item"><i class="fa fa-vk" aria-hidden="true"></i></a>
+                        <a href="/" class="header-social_item"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                        <a href="/" class="header-social_item"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-2">
+                  <div class="cash-switch">
+                     <div class="cash-switch_item"><a href="/">USD</a></div>
+                     <div class="cash-switch_item cash-switch_item-active"><a href="/">RUB</a></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container">
+         <div class="row">
+            <div class="col-xs-12">
+               <div class="main-header_content">
+                  <a href="index.html">
+                     <div class="header-logo">
+                        <div class="main-header_title">Natali</div>
+                        <div class="main-header_description">Интеренет магазин цветов</div>
+                     </div>
+                  </a>
+                  <div class="header-content_wraper">
+                     <div class="header-support">
+                        <img src="img/header/woman.png" class="support-img" alt="woman">
+                        <div class="support-wraper">
+                           <span class="support-title">Онлайн консультант</span>
+                           <a href="/" class="support-description">Задать вопрос</a>
+                        </div>
+                     </div>
+                     <div class="header-callback">
+                        <span class="header-callback_phone">+7 (701) 999 99 98</span>
+                        <a href="/" class="header-callback_link"><img src="img/header/phone.png" alt="phone"> <span>Перезвоните мне</span></a>
+                     </div>
+                     <div class="header-callback">
+                        <span class="header-callback_phone">8 800 50 77 40</span>
+                        <div class="header-callback_link header-callback_link-no-link"><img src="img/header/clock.png" alt="phone"> <span>Ежедневно с 8:00 до 20:00</span></div>
+                     </div>
+                     <a href="basket.html" class="header-basket">
+                        <div class="header-cart">
+                           <div class="cart-basket">
+                              <div class="cart-basket_number">3</div>
+                              <img src="img/header/cart.png" class="cart-basket_item" alt="cart">
+                           </div>
+                           <div class="cart-content">
+                              <span class="header-cart_title">Заказ на сумму</span>
+                              <a href="basket.html" class="header-cart_link">8 500 руб</a>
+                           </div>
+                        </div>
+                     </a>
+                     <div class="header-mob-menu">
+                        <img src="img/menu.png" alt="menu">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+		<div class="header-nav">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="header-nav_wraper">
+                     <div class="header-nav-item-wraper">
+   							<a href="#" class="header-nav-item_link"><img src="img/header/flower.png" alt="flower"><span>Цветы</span><img src="img/header/menu-arrow.png" class="header-nav-item_arrow" alt="arrow"></a>
+                        <ul class="header-sub-nav">
+                           <li><a href="/" class="header-sub-nav_item">Название ссылки</a></li>
+                           <li><a href="/" class="header-sub-nav_item">Название ссылки</a></li>
+                           <li><a href="/" class="header-sub-nav_item">Название ссылки</a></li>
+                           <li><a href="/" class="header-sub-nav_item">Название ссылки</a></li>
+                           <li><a href="/" class="header-sub-nav_item">Название ссылки</a></li>
+                           <li><a href="/" class="header-sub-nav_item">Название ссылки</a></li>
+                           <li><a href="/" class="header-sub-nav_item">Название ссылки</a></li>
+                        </ul>
+                     </div>
+                     <div class="header-nav-item-wraper">
+   							<a href="#" class="header-nav-item_link"><img src="img/header/rose.png" alt="rose"><span>Поводы</span><img src="img/header/menu-arrow.png" class="header-nav-item_arrow" alt="arrow"></a>
+                        <ul class="header-sub-nav">
+                           <li><a href="/" class="header-sub-nav_item">Название ссылки</a></li>
+                           <li><a href="/" class="header-sub-nav_item">Название ссылки</a></li>
+                           <li><a href="/" class="header-sub-nav_item">Название ссылки</a></li>
+                           <li><a href="/" class="header-sub-nav_item">Название ссылки</a></li>
+                           <li><a href="/" class="header-sub-nav_item">Название ссылки</a></li>
+                           <li><a href="/" class="header-sub-nav_item">Название ссылки</a></li>
+                           <li><a href="/" class="header-sub-nav_item">Название ссылки</a></li>
+                        </ul>
+                     </div>
+                     <div class="header-nav-item-wraper">
+   							<a href="#" class="header-nav-item_link"><img src="img/header/toy.png" alt="toy"><span>Игрушки</span><img src="img/header/menu-arrow.png" class="header-nav-item_arrow" alt="arrow"></a>
+                        <ul class="header-sub-nav">
+                           <li><a href="/" class="header-sub-nav_item">Название ссылки</a></li>
+                           <li><a href="/" class="header-sub-nav_item">Название ссылки</a></li>
+                           <li><a href="/" class="header-sub-nav_item">Название ссылки</a></li>
+                           <li><a href="/" class="header-sub-nav_item">Название ссылки</a></li>
+                           <li><a href="/" class="header-sub-nav_item">Название ссылки</a></li>
+                           <li><a href="/" class="header-sub-nav_item">Название ссылки</a></li>
+                           <li><a href="/" class="header-sub-nav_item">Название ссылки</a></li>
+                        </ul>
+                     </div>
+                     <div class="header-nav-item-wraper">
+   							<a href="#" class="header-nav-item_link"><img src="img/header/gift.png" alt="gift"><span>Праздники</span><img src="img/header/menu-arrow.png" class="header-nav-item_arrow" alt="arrow"></a>
+                        <ul class="header-sub-nav">
+                           <li><a href="/" class="header-sub-nav_item">Название ссылки</a></li>
+                           <li><a href="/" class="header-sub-nav_item">Название ссылки</a></li>
+                           <li><a href="/" class="header-sub-nav_item">Название ссылки</a></li>
+                           <li><a href="/" class="header-sub-nav_item">Название ссылки</a></li>
+                           <li><a href="/" class="header-sub-nav_item">Название ссылки</a></li>
+                           <li><a href="/" class="header-sub-nav_item">Название ссылки</a></li>
+                           <li><a href="/" class="header-sub-nav_item">Название ссылки</a></li>
+                        </ul>
+                     </div>
+                     <div class="header-search">
+                        <a href="/" class="header-serach_clear"><img src="img/header/search.png" alt="search"></a>
+                        <input type="text" class="header-search_input" placeholder="Я ищу алую розу">
+                     </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+   </header>
+
+   <section class="main-page-slider" style="background-image: url('img/main-page/slider-bg.png')">
+      <div class="container">
+         <div class="row">
+            <div class="col-xs-12">
+               <div class="main-page-slider-wraper">
+                  <div class="main-page-slider_arrow main-page-slider_arrow--prev">
+                     <img src="img/main-page/slider-arrow-left.png" alt="arrow">
+                  </div>
+                  <div class="main-page-slider_content">
+                     <div class="owl-carousel owl-theme owl-carousel-slider">
+                        <div class="main-page-slider-item">
+                           <div class="slider-description">
+                              <div class="slider-prefix">Новинка</div>
+                              <div class="slider-title">Корзинка</div>
+                              <div class="slider-text">На протяжении многих лет я создаюНа протяжении многих лет я создаю костюмы для танца и тренировочные модели. Каждая созданная мной коллекция помогает профессионалам и начинающим танцорам.</div>
+                              <div class="slider-price">от <span>150</span> руб./шт</div>
+                              <div class="slider-button-wraper">
+                                 <div class="button-green button-fill"><a href="#">В корзину</a></div>
+                                 <div class="button-green"><a href="#">Подробнее</a></div>
+                              </div>
+                           </div>
+                           <div class="slider-item">
+                              <img src="img/main-page/kor.png" alt="item">
+                           </div>
+                        </div>
+                        <div class="main-page-slider-item">
+                           <div class="slider-description">
+                              <div class="slider-prefix">Новинка</div>
+                              <div class="slider-title">Корзинка</div>
+                              <div class="slider-text">На протяжении многих лет я создаю костюмы для танца и тренировочные модели. Каждая созданная мной коллекция помогает профессионалам и начинающим танцорам.</div>
+                              <div class="slider-price">от <span>150</span> руб./шт</div>
+                              <div class="slider-button-wraper">
+                                 <div class="button-green button-fill"><a href="#">В корзину</a></div>
+                                 <div class="button-green"><a href="#">Подробнее</a></div>
+                              </div>
+                           </div>
+                           <div class="slider-item">
+                              <img src="img/main-page/kor.png" alt="item">
+                           </div>
+                        </div>
+                        <div class="main-page-slider-item">
+                           <div class="slider-description">
+                              <div class="slider-prefix">Новинка</div>
+                              <div class="slider-title">Корзинка</div>
+                              <div class="slider-text">На протяжении многих лет я создаю костюмы для танца и тренировочные модели. Каждая созданная мной коллекция помогает профессионалам и начинающим танцорам.</div>
+                              <div class="slider-price">от <span>150</span> руб./шт</div>
+                              <div class="slider-button-wraper">
+                                 <div class="button-green button-fill"><a href="#">В корзину</a></div>
+                                 <div class="button-green"><a href="#">Подробнее</a></div>
+                              </div>
+                           </div>
+                           <div class="slider-item">
+                              <img src="img/main-page/kor.png" alt="item">
+                           </div>
+                        </div>
+                        <div class="main-page-slider-item">
+                           <div class="slider-description">
+                              <div class="slider-prefix">Новинка</div>
+                              <div class="slider-title">Корзинка</div>
+                              <div class="slider-text">На протяжении многих лет я создаю костюмы для танца и тренировочные модели. Каждая созданная мной коллекция помогает профессионалам и начинающим танцорам.</div>
+                              <div class="slider-price">от <span>150</span> руб./шт</div>
+                              <div class="slider-button-wraper">
+                                 <div class="button-green button-fill"><a href="#">В корзину</a></div>
+                                 <div class="button-green"><a href="#">Подробнее</a></div>
+                              </div>
+                           </div>
+                           <div class="slider-item">
+                              <img src="img/main-page/kor.png" alt="item">
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="main-page-slider_arrow main-page-slider_arrow--next">
+                     <img src="img/main-page/slider-arrow-right.png" alt="arrow">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section class="features">
+      <div class="container">
+         <div class="row">
+            <div class="col-xs-12">
+               <div class="features-item-wraper">
+                  <div class="features-item">
+                     <img src="img/main-page/price.png" alt="price">
+                     <span>Гибкая система <br>скидок</span>
+                  </div>
+                  <div class="features-item">
+                     <img src="img/main-page/title.png" alt="title">
+                     <span>Быстрая <br>доставка</span>
+                  </div>
+                  <div class="features-item">
+                     <img src="img/main-page/flower.png" alt="flower">
+                     <span>Огромный выбор <br>комнатных растений</span>
+                  </div>
+                  <div class="features-item">
+                     <img src="img/main-page/flower-2.png" alt="flower-2">
+                     <span>Всегда свежие <br>цветы для букетов</span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section class="main-page-items">
+      <div class="container">
+         <div class="row">
+            <div class="col-xs-12">
+               <div class="main-page-items-title-wraper">
+                  <div class="main-page-item_title">Эксклюзив</div>
+                  <h3 class="main-page-item_description">Новинки сезона</h3>
+               </div>
+               <div class="main-page-filter">
+                  <div class="col-md-6">
+                     <span class="main-page-filter_title">Сортировать по:</span>
+                     <ul class="main-page-filter_ul">
+                        <li>Стоиомости (по возрастанию) <img src="img/location-switch.png" alt="location"></li>
+                        <li class="main-page-filter_item">Стоиомости (по убыванию)</li>
+                        <li class="main-page-filter_item">Популярности</li>
+                     </ul>
+                  </div>
+                  <div class="col-md-6">
+                     <div class="main-page-filter-switch">
+                        <span class="main-page-filter-switch_item main-page-filter-switch_item-active">12</span>
+                        <span class="main-page-filter-switch_item">24</span>
+                        <span class="main-page-filter-switch_item">64</span>
+                     </div>
+                  </div>
+               </div>
+               <div class="clearfix"></div>
+               <div class="product-item-wraper">
+                  <div class="col-sm-6 col-md-3">
+                     <a href="cart.html" class="product-item_link">
+                        <div class="product-item">
+                           <div class="product-item_discount">-25%</div>
+                           <img src="img/main-page/item.png" alt="item" class="product-item_img">
+                           <div class="product-item_art">Арт. ID1234567890</div>
+                           <h3 class="product-item_title">Композиция из первоцветовКомпозиция из первоцветов</h3>
+                           <div class="product-item_scale">50 см на 40 см</div>
+                           <div class="product-item_price">3000 руб.</div>
+                           <div class="button-green button-fill"><a href="#">В корзину</a></div>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="col-sm-6 col-md-3">
+                     <a href="cart.html" class="product-item_link">
+                        <div class="product-item">
+                           <img src="img/main-page/item.png" alt="item" class="product-item_img">
+                           <div class="product-item_art">Арт. ID1234567890</div>
+                           <h3 class="product-item_title">Композиция <br>из первоцветовпервоцветов</h3>
+                           <div class="product-item_scale">50 см на 40 см</div>
+                           <div class="product-item_price">15000 руб.</div>
+                           <div class="button-green button-fill"><a href="#">В корзину</a></div>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="col-sm-6 col-md-3">
+                     <a href="inner.html" class="product-item_link">
+                        <div class="product-item product-item_pop" style="background-image: url(img/main-page/pop.png);">
+                        </div>
+                     </a>
+                  </div>
+                  <div class="col-sm-6 col-md-3">
+                     <a href="cart.html" class="product-item_link">
+                        <div class="product-item">
+                           <div class="product-item_new" style="background-image: url('img/new-item.png');"></div>
+                           <img src="img/main-page/item.png" alt="item" class="product-item_img">
+                           <div class="product-item_art">Арт. ID1234567890</div>
+                           <h3 class="product-item_title">Композиция <br>из первоцветов</h3>
+                           <div class="product-item_scale">50 см на 40 см</div>
+                           <div class="product-item_price">3000 руб.</div>
+                           <div class="button-green button-fill"><a href="#">В корзину</a></div>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="clearfix"></div>
+                  <div class="col-sm-6 col-md-3">
+                     <a href="cart.html" class="product-item_link">
+                        <div class="product-item">
+                           <img src="img/main-page/item.png" alt="item" class="product-item_img">
+                           <div class="product-item_art">Арт. ID1234567890</div>
+                           <h3 class="product-item_title">Композиция <br>из первоцветов</h3>
+                           <div class="product-item_scale">50 см на 40 см</div>
+                           <div class="product-item_price">3000 руб.</div>
+                           <div class="button-green button-fill"><a href="#">В корзину</a></div>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="col-sm-6 col-md-3">
+                     <a href="cart.html" class="product-item_link">
+                        <div class="product-item">
+                           <img src="img/main-page/item.png" alt="item" class="product-item_img">
+                           <div class="product-item_art">Арт. ID1234567890</div>
+                           <h3 class="product-item_title">Композиция <br>из первоцветов</h3>
+                           <div class="product-item_scale">50 см на 40 см</div>
+                           <div class="product-item_price">3000 руб.</div>
+                           <div class="button-green button-fill"><a href="#">В корзину</a></div>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="col-sm-6 col-md-3">
+                     <a href="cart.html" class="product-item_link">
+                        <div class="product-item">
+                           <img src="img/main-page/item.png" alt="item" class="product-item_img">
+                           <div class="product-item_art">Арт. ID1234567890</div>
+                           <h3 class="product-item_title">Композиция <br>из первоцветов</h3>
+                           <div class="product-item_scale">50 см на 40 см</div>
+                           <div class="product-item_price">3000 руб.</div>
+                           <div class="button-green button-fill"><a href="#">В корзину</a></div>
+                        </div>
+                     </a>
+                  </div>
+                  <div class="col-sm-6 col-md-3">
+                     <a href="cart.html" class="product-item_link">
+                        <div class="product-item">
+                           <img src="img/main-page/item.png" alt="item" class="product-item_img">
+                           <div class="product-item_art">Арт. ID1234567890</div>
+                           <h3 class="product-item_title">Композиция <br>из первоцветов</h3>
+                           <div class="product-item_scale">50 см на 40 см</div>
+                           <div class="product-item_price">3000 руб.</div>
+                           <div class="button-green button-fill"><a href="#">В корзину</a></div>
+                        </div>
+                     </a>
+                  </div>
+               </div>
+               <div class="clearfix"></div>
+               <div class="pagination">
+                  <a href="#" class="pagination_arrow"><img src="img/main-page/main-page-bread-crumbs_left.png" alt="crumbs_left"></a>
+                  <a href="#" class="pagination_item pagination_item-active">1</a>
+                  <a href="#" class="pagination_item">2</a>
+                  <a href="#" class="pagination_item">3</a>
+                  <a href="#" class="pagination_item">4</a>
+                  <a href="#" class="pagination_item">5</a>
+                  <a href="#" class="pagination_arrow"><img src="img/main-page/main-page-bread-crumbs-right.png" alt="crumbs-right"></a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section class="delivery">
+      <div class="container">
+         <div class="row">
+            <div class="col-xs-12">
+               <div class="delivery-wraper">
+                  <div class="col-md-5 col-lg-6">
+                     <div class="delivery-img"><img src="img/delivery.png" alt="delivery"></div>
+                  </div>
+                  <div class="col-md-7 col-lg-6">
+                     <div class="delivery_title">Доставка цветов</div>
+                     <div class="delivery_description">Хотите сделать необычайный <br>подарок своим близким? </div>
+                     <p class="delivery-text">Салон эротического массажа в Москве Lux Night
+
+Наслаждение – это нежные прикосновения чутких пальцев к коже, сладкая истома и радость раскрепощенного тела. Это полноценный релакс, после которого вы получите суперзаряд энергии и будете готовы к новым свершениям, достижениям, победам. Если вы хотите по-настоящему отдохнуть и набраться сил, двери салона эротического массажа в Москве «Люкснайт» открыты для вас. Мы знаем толк в расслабляющих программах и будем рады стать вашим гидом в мире чувственных удовольствий.
+
+Эротический массаж – здоровое наслаждение</p>
+                  </div>
+               </div>
+               <div class="more-delivery-wraper">
+                  <h3 class="more-delivery-wraper_title">Доставка цветов</h3>
+                  <p class="more-delivery-wraper_text"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias blanditiis alias doloribus iure nam eveniet unde amet, repellat, aut officiis veniam sapiente placeat, voluptatum numquam. Explicabo incidunt praesentium similique? Debitis.</span>
+                  <span>Fugiat soluta esse iusto cumque. Rem sunt dolorem voluptatem sequi, accusamus iusto illo enim atque, modi, aut sit libero odit, eius quod. Distinctio ratione, maxime dolor. Ut reiciendis iste sint.</span>
+                  <span>Natus aut omnis dicta sunt ea, fugit sit iusto, obcaecati eum voluptatum excepturi! Enim eos ipsam quod architecto accusantium, quaerat necessitatibus veritatis labore dolorum illum! Quae id explicabo iste sequi.</span>
+                  <span>Ducimus adipisci tenetur necessitatibus maiores, eos doloremque iste dignissimos et dolore totam, dolores temporibus possimus odio delectus eum eius minus obcaecati commodi. Itaque, aliquam ab minima. Possimus nisi at excepturi.</span>
+                  <span>Aspernatur ducimus omnis sint cum ab quae quod molestiae, explicabo corporis aliquid deleniti quo, nobis laboriosam cumque quidem totam consequuntur illo, quasi quas unde temporibus sit maiores doloribus. Laudantium, facilis.</span>
+                  <span>Illum distinctio, beatae tempore aut ducimus, at alias animi repudiandae iste dolorem consequuntur architecto eaque perferendis rerum magni dolores est ullam quae quod vero harum non delectus ea. Ipsam, debitis.</span>
+                  <span>Odio non nulla ipsum, repudiandae eaque fuga assumenda id, atque fugit, quaerat facere laudantium amet debitis obcaecati! Laudantium dolor aut explicabo doloremque ipsum! Maxime labore molestias fuga, excepturi dolorem iure.</span>
+                  <span>Natus eveniet numquam totam id debitis molestiae enim, maiores porro laborum in dolorum sit ab dolorem eum, libero. Voluptatibus modi sit sequi sunt repellat dolorum illo ullam earum, exercitationem temporibus!</span>
+                  <span>Dolor delectus rerum tempore vitae, consequuntur soluta nisi sed deleniti itaque molestiae assumenda, atque officiis perspiciatis asperiores voluptas fugiat animi tenetur consequatur facere laboriosam laborum maxime nemo culpa voluptatibus. Minus.</span>
+                  <span>Ipsam iste aperiam, suscipit rem possimus quos ipsa perferendis ducimus quod deleniti in facilis tempore excepturi est tenetur. Fugit quam, reprehenderit cumque aliquid odio nulla corporis voluptates facere esse aspernatur!</span></p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section class="discounts">
+      <div class="container">
+         <div class="row">
+            <div class="col-xs-12">
+               <div class="discounts-wraper">
+                  <div class="col-md-8 col-lg-7">
+                     <img src="img/discounts.png" alt="discounts">
+                     <div class="discounts-timer">
+                        <div class="discounts-timer_title">До конца акции осталось</div>
+                        <div class="discounts-timer_count">
+                           <span class="number">1</span>
+                           <span class="number">2</span>
+                           <span class="colon">:</span>
+                           <span class="number">3</span>
+                           <span class="number">4</span>
+                           <span class="colon">:</span>
+                           <span class="number">5</span>
+                           <span class="number">6</span>
+                           <div class="clearfix"></div>
+                           <div class="discounts-timer_data">Часов</div>
+                           <div class="discounts-timer_data">Минут</div>
+                           <div class="discounts-timer_data">Секунд</div>
+                        </div>
+                     </div>
+                     <div class="discounts-title">Летние скидки</div>
+                     <a href="catalog.html" class="discounts-button">Перейти в каталог</a>
+                  </div>
+                  <div class="col-md-4 col-lg-5">
+                     <img src="img/discount-basket.png" alt="discount-basket" class="discount-basket">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <footer class="main-footer">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-4">
+               <div class="main-footer_copy">2016. Салон цветов «Натали». Все права защищены</div>
+            </div>
+            <div class="col-md-3">
+               <div class="header-social_wraper">
+                  <div class="header-social">
+                     <a href="/" class="header-social_item"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                     <a href="/" class="header-social_item"><i class="fa fa-vk" aria-hidden="true"></i></a>
+                     <a href="/" class="header-social_item"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                     <a href="/" class="header-social_item"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-5">
+               <nav class="header-menu">
+                  <ul>
+                     <li><a href="index.html">Главная</a></li>
+                     <li><a href="/">Доставка и оплата</a></li>
+                     <li><a href="contact.html">Контакты</a></li>
+                     <li><a href="/">Фотогалерея</a></li>
+                     <li><a href="/">Акции</a></li>
+                  </ul>
+               </nav>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+   <!-- HIDDEN -->
+   <div class="pop-up">
+      <div class="callback-wraper">
+         <div class="callback-inner">
+            <div class="callback-close">
+               <img src="img/close-button.png" class="callback-close_img" alt="close-button">
+            </div>
+            <div class="callback-top">
+               <div class="callback-title">Оставьте заявку</div>
+               <div class="callback-description">Оставьте заявку, и мы вам перезвоним!</div>
+            </div>
+            <div class="callback-content">
+               <form>
+                  <div class="callback-input-wraper">
+                     <div class="callback-input_title">Имя:</div>
+                     <input type="text" required>
+                  </div>
+                  <div class="callback-input-wraper">
+                     <div class="callback-input_title">Телефон:</div>
+                     <input id="phone" type="text" placeholder="+ 7 (___) ___-__-__" required>
+                  </div>
+                  <button class="callback_button">Отправить</button>
+               </form>
+            </div>
+         </div>
+      </div>
+		<div class="answer-wraper">
+         <div class="answer-inner">
+            <div class="answer-close">
+               <img src="img/close-button.png" class="callback-close_img" alt="close-button">
+            </div>
+            <div class="answer-top">
+               <div class="answer-title">Задать вопрос</div>
+               <div class="answer-description">У вас остались какие-то вопросы?<br>Оставьте заявку, и мы вам перезвоним!</div>
+            </div>
+            <div class="answer-content">
+               <form>
+                  <div class="answer-input-wraper">
+                     <div class="answer-input_title">Имя:</div>
+                     <input type="text" required>
+                  </div>
+                  <div class="answer-input-wraper">
+                     <div class="answer-input_title">Телефон:</div>
+                     <input id="phone" type="text" placeholder="+ 7 (___) ___-__-__" required>
+                  </div>
+                  <div class="answer-input-wraper">
+                     <div class="answer-input_title">Вопрос:</div>
+                     <textarea rows="8" cols="80"></textarea>
+                  </div>
+                  <button class="answer_button">Отправить</button>
+               </form>
+            </div>
+         </div>
+      </div>
+      <div class="mobile-menu">
+         <a href="#" class="mob-header-menu_close"><img src="img/close-button.png" alt="close"></a>
+         <div class="mob-header-menu">
+            <a href="index.html">
+               <div class="header-logo">
+                  <div class="main-header_title">Natali</div>
+                  <div class="main-header_description">Интеренет магазин цветов</div>
+               </div>
+            </a>
+               <div class="mob-header_top">
+                  <nav class="mob-header_menu">
+                     <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="/">Доставка и оплата</a></li>
+                        <li><a href="contact.html">Контакты</a></li>
+                        <li><a href="/">Фотогалерея</a></li>
+                        <li><a href="/">Акции</a></li>
+                     </ul>
+                  </nav>
+               </div>
+               <nav class="mob-header_shop">
+                  <ul>
+                     <div class="mob-header-shop_item">
+                        <li><a href="/" class="mob-header-shop_title"><img src="img/header/flower.png" alt="flower">Цветы <img src="img/header/menu-arrow.png" class="mob-header-shop_arrow" alt="arrow"></a></li>
+                        <ul class="mob-header-shop_ul">
+                           <li><a href="/" class="mob-header-shop_li">Название ссылки</a></li>
+                           <li><a href="/" class="mob-header-shop_li">Название ссылки</a></li>
+                           <li><a href="/" class="mob-header-shop_li">Название ссылки</a></li>
+                           <li><a href="/" class="mob-header-shop_li">Название ссылки</a></li>
+                           <li><a href="/" class="mob-header-shop_li">Название ссылки</a></li>
+                           <li><a href="/" class="mob-header-shop_li">Название ссылки</a></li>
+                           <li><a href="/" class="mob-header-shop_li">Название ссылки</a></li>
+                        </ul>
+                     </div>
+                     <div class="mob-header-shop_item">
+                        <li><a href="/" class="mob-header-shop_title"><img src="img/header/rose.png" alt="rose">Поводы <img src="img/header/menu-arrow.png" class="mob-header-shop_arrow" alt="arrow"></a></li>
+                        <ul class="mob-header-shop_ul">
+                           <li><a href="/" class="mob-header-shop_li">Название ссылки</a></li>
+                           <li><a href="/" class="mob-header-shop_li">Название ссылки</a></li>
+                           <li><a href="/" class="mob-header-shop_li">Название ссылки</a></li>
+                           <li><a href="/" class="mob-header-shop_li">Название ссылки</a></li>
+                           <li><a href="/" class="mob-header-shop_li">Название ссылки</a></li>
+                           <li><a href="/" class="mob-header-shop_li">Название ссылки</a></li>
+                           <li><a href="/" class="mob-header-shop_li">Название ссылки</a></li>
+                        </ul>
+                     </div>
+                     <div class="mob-header-shop_item">
+                        <li><a href="/" class="mob-header-shop_title"><img src="img/header/toy.png" alt="toy">Игрушки <img src="img/header/menu-arrow.png" class="mob-header-shop_arrow" alt="arrow"></a></li>
+                        <ul class="mob-header-shop_ul">
+                           <li><a href="/" class="mob-header-shop_li">Название ссылки</a></li>
+                           <li><a href="/" class="mob-header-shop_li">Название ссылки</a></li>
+                           <li><a href="/" class="mob-header-shop_li">Название ссылки</a></li>
+                           <li><a href="/" class="mob-header-shop_li">Название ссылки</a></li>
+                           <li><a href="/" class="mob-header-shop_li">Название ссылки</a></li>
+                           <li><a href="/" class="mob-header-shop_li">Название ссылки</a></li>
+                           <li><a href="/" class="mob-header-shop_li">Название ссылки</a></li>
+                        </ul>
+                     </div>
+                     <div class="mob-header-shop_item">
+                        <li><a href="/" class="mob-header-shop_title"><img src="img/header/gift.png" alt="gift">Праздники <img src="img/header/menu-arrow.png" class="mob-header-shop_arrow" alt="arrow"></a></li>
+                        <ul class="mob-header-shop_ul">
+                           <li><a href="/" class="mob-header-shop_li">Название ссылки</a></li>
+                           <li><a href="/" class="mob-header-shop_li">Название ссылки</a></li>
+                           <li><a href="/" class="mob-header-shop_li">Название ссылки</a></li>
+                           <li><a href="/" class="mob-header-shop_li">Название ссылки</a></li>
+                           <li><a href="/" class="mob-header-shop_li">Название ссылки</a></li>
+                           <li><a href="/" class="mob-header-shop_li">Название ссылки</a></li>
+                           <li><a href="/" class="mob-header-shop_li">Название ссылки</a></li>
+                        </ul>
+                     </div>
+                  </ul>
+               </nav>
+               <div class="mob-header-search">
+                  <div class="mob-header-search_title">Поиск по сайту:</div>
+                  <a href="/" class="mob-header-search_serach"><img src="img/header/search.png" alt="search"></a>
+                  <input type="text" class="mob-header-search_input" placeholder="Я ищу алую розу">
+               </div>
+         </div>
+      </div>
+   </div>
+
+   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/main.min.css">
+	<script src="js/scripts.min.js"></script>
+</body>
+</html>
