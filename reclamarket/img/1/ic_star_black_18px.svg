@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="8394 425 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #bfbfbf;
+      }
+    </style>
+  </defs>
+  <g id="ic_star_black_18px" transform="translate(8394 425)">
+    <path id="Path_107" data-name="Path 107" class="cls-1" d="M0,0H20V20H0Z"/>
+    <path id="Path_108" data-name="Path 108" class="cls-2" d="M10.333,14.725l5.15,3.108-1.367-5.858,4.55-3.942-5.992-.508L10.333,2,7.992,7.525,2,8.033l4.55,3.942L5.183,17.833Z" transform="translate(-0.333 -0.333)"/>
+    <path id="Path_109" data-name="Path 109" class="cls-1" d="M0,0H20V20H0Z"/>
+  </g>
+</svg>

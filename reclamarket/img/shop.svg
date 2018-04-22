@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="1519.333 21.167 19.667 19.667">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        filter: url(#Path_151);
+      }
+    </style>
+    <filter id="Path_151" x="1519.333" y="21.167" width="19.667" height="19.667" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur"/>
+      <feFlood flood-opacity="0.051"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-2" transform="matrix(1, 0, 0, 1, 0, 0)">
+    <path id="Path_151-2" data-name="Path 151" class="cls-1" d="M6,15.333A1.667,1.667,0,1,0,7.667,17,1.664,1.664,0,0,0,6,15.333ZM1,2V3.667H2.667l3,6.325L4.542,12.033a1.611,1.611,0,0,0-.208.8A1.672,1.672,0,0,0,6,14.5H16V12.833H6.35a.206.206,0,0,1-.208-.208l.025-.1.75-1.358h6.208a1.659,1.659,0,0,0,1.458-.858L17.567,4.9a.814.814,0,0,0,.1-.4.836.836,0,0,0-.833-.833H4.508L3.725,2H1ZM14.333,15.333A1.667,1.667,0,1,0,16,17,1.664,1.664,0,0,0,14.333,15.333Z" transform="translate(1519.83 19.67)"/>
+  </g>
+</svg>

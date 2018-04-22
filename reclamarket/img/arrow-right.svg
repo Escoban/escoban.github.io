@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="1394 469 22 22">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Стрелка" transform="translate(1394 469)">
+    <path id="Path_107" data-name="Path 107" class="cls-1" d="M0,0H22V22H0Z"/>
+    <path id="Path_108" data-name="Path 108" class="cls-2" d="M11.333,4,10.041,5.293l5.115,5.124H4V12.25H15.156l-5.115,5.124,1.292,1.292,7.333-7.333Z" transform="translate(-0.333 -0.333)"/>
+  </g>
+</svg>

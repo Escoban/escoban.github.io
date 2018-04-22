@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="300 939.825 45 38.175">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff4181;
+      }
+
+      .cls-2 {
+        fill: #ff755c;
+      }
+
+      .cls-3 {
+        fill: #ff9356;
+      }
+
+      .cls-4 {
+        fill: #ffce47;
+      }
+
+      .cls-5 {
+        fill: #ffebb4;
+      }
+    </style>
+  </defs>
+  <g id="_004-blank-page" data-name="004-blank-page" transform="translate(300 978) rotate(-90)">
+    <rect id="Rectangle_25" data-name="Rectangle 25" class="cls-1" width="26.019" height="32.844" transform="translate(12.156 12.156)"/>
+    <rect id="Rectangle_26" data-name="Rectangle 26" class="cls-2" width="26.019" height="32.844" transform="translate(8.104 8.104)"/>
+    <rect id="Rectangle_27" data-name="Rectangle 27" class="cls-3" width="26.019" height="32.844" transform="translate(4.052 4.052)"/>
+    <path id="Path_87" data-name="Path 87" class="cls-4" d="M64.844,32.844H38.825V0H56.953l7.891,7.891Z" transform="translate(-38.825)"/>
+    <path id="Path_88" data-name="Path 88" class="cls-5" d="M245.081,0V7.891h7.891Z" transform="translate(-226.953)"/>
+  </g>
+</svg>
